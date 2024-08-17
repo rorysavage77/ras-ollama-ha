@@ -62,7 +62,8 @@ ollama:
   # models:
   #  - llama2
   #  - mistral
-  models: []
+  models:
+    - llama3
 
   # -- Add insecure flag for pulling at container startup
   insecure: false
